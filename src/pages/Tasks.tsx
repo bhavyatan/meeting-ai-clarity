@@ -14,7 +14,7 @@ import {
   DropdownMenuTrigger 
 } from '../components/ui/dropdown-menu';
 import { Tabs, TabsList, TabsTrigger } from '../components/ui/tabs';
-import { toast } from 'sonner';
+import { toast } from '@/utils/toast';
 
 interface Task {
   id: string;
