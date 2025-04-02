@@ -1,8 +1,7 @@
-
 import React, { useState, useRef } from 'react';
 import { Upload, X, FileUp } from 'lucide-react';
 import { Button } from './ui/button';
-import { toast } from './ui/sonner';
+import { toast } from 'sonner';
 
 const FileUpload: React.FC = () => {
   const [dragActive, setDragActive] = useState(false);

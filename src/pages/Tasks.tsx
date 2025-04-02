@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { CheckCircle, Filter, SortAsc, Zap } from 'lucide-react';
 import Layout from '../components/Layout';
@@ -15,7 +14,7 @@ import {
   DropdownMenuTrigger 
 } from '../components/ui/dropdown-menu';
 import { Tabs, TabsList, TabsTrigger } from '../components/ui/tabs';
-import { toast } from '../components/ui/sonner';
+import { toast } from 'sonner';
 
 interface Task {
   id: string;
