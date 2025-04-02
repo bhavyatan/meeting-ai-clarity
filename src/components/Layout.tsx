@@ -22,8 +22,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               onClick={() => navigate('/')}
               className="text-xl font-bold flex items-center gap-2"
             >
-              <span className="w-8 h-8 bg-primary rounded-md flex items-center justify-center text-primary-foreground">M</span>
-              <span>MeetingAI</span>
+              <span className="w-8 h-8 bg-primary rounded-md flex items-center justify-center text-primary-foreground">N</span>
+              <span>NexusAI</span>
             </button>
           </div>
           
@@ -57,7 +57,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <footer className="border-t py-6 md:py-8">
         <div className="container flex flex-col md:flex-row justify-between items-center">
           <div className="text-sm text-muted-foreground">
-            © 2023 MeetingAI. All rights reserved.
+            © 2023 NexusAI. All rights reserved.
           </div>
           <div className="flex gap-4 mt-4 md:mt-0">
             <a href="#" className="text-sm text-muted-foreground hover:text-foreground">
